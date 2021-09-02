@@ -2,9 +2,11 @@
     
     <article>
         <h1>{{ $post->title }}</h1>
-        <div>{!! $post->body !!}</h1>
+        <div><p>{!! $post->body !!}</p></h1>
     </article>
-    <a href="/">Go Back</a>  
+
+    <a href="/">Go Back</a>
+      
 
 </x-layout>
 
